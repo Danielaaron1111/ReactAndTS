@@ -1,0 +1,46 @@
+{
+  "recipes": [
+    {
+      "title": "Classic Pancakes",
+      "category": "Breakfast",
+      "prepTime": "20 min",
+      "ingredients": "2 cups flour, 2 eggs, 1.5 cups milk, 2 tbsp sugar, 1 tsp baking powder, pinch of salt, butter for cooking",
+      "instructions": "Mix dry ingredients together. Whisk eggs and milk, then combine with dry mix. Heat a buttered pan over medium heat. Pour 1/4 cup batter per pancake. Flip when bubbles form on surface. Serve with maple syrup."
+    },
+    {
+      "title": "Caesar Salad",
+      "category": "Lunch",
+      "prepTime": "15 min",
+      "ingredients": "1 head romaine lettuce, 1/2 cup croutons, 1/4 cup parmesan cheese, 3 tbsp Caesar dressing, 1 lemon, black pepper",
+      "instructions": "Wash and chop the romaine lettuce. Toss with Caesar dressing until evenly coated. Add croutons and shaved parmesan on top. Squeeze fresh lemon juice and season with black pepper. Serve immediately."
+    },
+    {
+      "title": "Spaghetti Bolognese",
+      "category": "Dinner",
+      "prepTime": "45 min",
+      "ingredients": "400g spaghetti, 500g ground beef, 1 onion, 3 cloves garlic, 400ml crushed tomatoes, 2 tbsp tomato paste, 1 tsp oregano, salt and pepper, olive oil",
+      "instructions": "Cook spaghetti according to package directions. In a large pan, sauté diced onion and garlic in olive oil. Add ground beef and brown it. Stir in crushed tomatoes, tomato paste, and oregano. Simmer for 20 minutes. Season with salt and pepper. Serve sauce over spaghetti."
+    },
+    {
+      "title": "Chocolate Lava Cake",
+      "category": "Dessert",
+      "prepTime": "30 min",
+      "ingredients": "200g dark chocolate, 100g butter, 2 eggs, 2 egg yolks, 1/4 cup sugar, 2 tbsp flour, pinch of salt",
+      "instructions": "Preheat oven to 425°F. Melt chocolate and butter together. Whisk eggs, yolks, and sugar until thick. Fold chocolate mixture into eggs. Add flour and salt. Pour into greased ramekins. Bake 12-14 minutes until edges are firm but center is soft. Invert onto plates and serve immediately."
+    },
+    {
+      "title": "Avocado Toast",
+      "category": "Breakfast",
+      "prepTime": "10 min",
+      "ingredients": "2 slices sourdough bread, 1 ripe avocado, 1 lemon, red pepper flakes, salt, olive oil, optional: poached egg",
+      "instructions": "Toast the sourdough slices until golden. Mash the avocado with a fork and mix in lemon juice and salt. Spread the avocado mixture on toast. Drizzle with olive oil and sprinkle red pepper flakes. Top with a poached egg if desired."
+    },
+    {
+      "title": "Grilled Chicken Tacos",
+      "category": "Dinner",
+      "prepTime": "35 min",
+      "ingredients": "500g chicken breast, 8 small tortillas, 1 cup salsa, 1 avocado, 1/2 cup sour cream, 1 lime, cumin, chili powder, garlic powder, salt",
+      "instructions": "Season chicken with cumin, chili powder, garlic powder, and salt. Grill chicken on medium-high heat for 6-7 minutes per side. Let rest 5 minutes, then slice. Warm tortillas on the grill. Assemble tacos with sliced chicken, salsa, avocado slices, and sour cream. Squeeze lime on top."
+    }
+  ]
+}

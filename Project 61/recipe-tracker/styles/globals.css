@@ -1,0 +1,10 @@
+/* Global styles — minimal since we use MUI sx prop for styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+}

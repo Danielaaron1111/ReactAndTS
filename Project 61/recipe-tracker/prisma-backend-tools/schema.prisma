@@ -1,0 +1,41 @@
+// Prisma schema for Recipe Tracker
+// Think of this like an Entity Framework model definition in C#
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// The Recipe model — like a C# class with [Key] and [Required] attributes
+model Recipe {
+  id           Int              @id @default(autoincrement())
+  title        String
+  category     String           // e.g. "Breakfast", "Lunch", "Dinner", "Dessert"
+  prepTime     String           // e.g. "30 min"
+  ingredients  String
+  instructions String
+  favorites    FavoriteRecipe[] // One-to-many: a recipe can be favorited many times
+  reviews      RecipeReview[]   // One-to-many: a recipe can have many reviews
+}
+
+// Like a "SavedItem" join table in C# — tracks which recipes the user favorited
+model FavoriteRecipe {
+  id        Int      @id @default(autoincrement())
+  recipeId  Int      // Foreign key → Recipe.id
+  recipe    Recipe   @relation(fields: [recipeId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+// Like a C# Review entity with a FK back to Recipe
+model RecipeReview {
+  id           Int    @id @default(autoincrement())
+  recipeId     Int    // Foreign key → Recipe.id
+  recipe       Recipe @relation(fields: [recipeId], references: [id])
+  reviewerName String
+  comment      String
+  rating       Int
+}
